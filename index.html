@@ -1,225 +1,137 @@
 <!DOCTYPE html>
 <html lang="en">
-  
-<!-- Mirrored from billysol.lol/ by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 04 Dec 2024 02:24:09 GMT -->
-<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="preconnect" href="https://fonts.googleapis.com/" />
-    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin />
+    <title>$CRYPTO - Empowering Your Digital Future</title>
+    <meta
+      name="description"
+      content="Trade, play, and earn with $CRYPTO. Empower your crypto journey with a secure P2P trading platform and engaging blockchain games."
+    />
     <link
-      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&amp;display=swap"
-      rel="stylesheet" />
-    <link rel="stylesheet" href="style.css" />
-    <title>$BILLY</title>
-        <meta
-          name="description"
-          content="The cutest dog billy, is going to a billy." />
-        <link rel="canonical" href="index.html" />
-        <link rel="shortlink" href="index.html" />
-        <link rel="icon" href="favicon.ico" type="image/x-icon">
-        <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
-        <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
-        <link rel="manifest" href="site.html">
-        <meta property="og:url" content="index.html" />
-        <meta property="og:type" content="website" />
-        <meta property="og:title" content="$BILLY" />
-        <meta
-          property="og:description"
-          content="The cutest dog billy, is going to a billy." />
-        <meta property="og:image" content="preview.png" />
-        <meta name="twitter:card" content="summary_large_image" />
-        <meta property="twitter:domain" content="billysol.lol/" />
-        <meta property="twitter:url" content="index.html" />
-        <meta name="twitter:title" content="$BILLY" />
-        <meta
-          name="twitter:description"
-          content="The cutest dog billy, is going to a billy." />
-        <meta name="twitter:image" content="preview.png" />
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="icon" href="favicon.ico" type="image/x-icon" />
   </head>
-      <script>
-        document.addEventListener("DOMContentLoaded", function () {
-          var audioElem = document.getElementById("myAudio");
-          audioElem.pause();
-          audioElem.muted = true;
-          audioElem.volume = 0;
-  
-          function updateMuteButtonText() {
-            var muteBtn = document.getElementById("muteButton");
-            muteBtn.textContent = audioElem.muted ? "SONG" : "MUTE";
+  <body>
+    <!-- Navigation Bar -->
+    <header class="navigation-bar">
+      <div class="logo">
+        <a href="#hero" class="logo-text">$CRYPTO</a>
+      </div>
+      <nav>
+        <a class="link" href="#hero">Home</a>
+        <a class="link" href="#token">Token</a>
+        <a class="link" href="#buy">Buy</a>
+        <a class="link" href="#milestones">Milestones</a>
+        <a class="link" onclick="toggleMute()" id="muteButton">Play Music</a>
+      </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero">
+      <div class="hero-content">
+        <h1>Welcome to $CRYPTO!</h1>
+        <p>
+          Your gateway to the future of decentralized finance. Trade, play, and
+          earn with ease!
+        </p>
+        <div class="hero-buttons">
+          <a href="#token" class="button">Learn More</a>
+          <a href="#buy" class="button">Get $CRYPTO</a>
+        </div>
+      </div>
+      <img src="billy.jpg" class="hero-image" alt="Hero Image" />
+    </section>
+
+    <!-- Token Section -->
+    <section id="token" class="section">
+      <h2>About $CRYPTO</h2>
+      <p>
+        $CRYPTO is a next-generation cryptocurrency built on Solana, offering
+        lightning-fast transactions and exciting rewards for holders.
+      </p>
+      <div class="token-details">
+        <ul>
+          <li><strong>Total Supply:</strong> 1,000,000,000</li>
+          <li><strong>Blockchain:</strong> Solana</li>
+          <li>
+            <strong>Use Cases:</strong> Staking, trading, and gaming rewards
+          </li>
+        </ul>
+      </div>
+      <a href="#buy" class="button">Buy $CRYPTO Now</a>
+    </section>
+
+    <!-- Buy Section -->
+    <section id="buy" class="section">
+      <h2>Buy $CRYPTO</h2>
+      <p>Secure your $CRYPTO tokens today and join the future of finance!</p>
+      <div class="buy-options">
+        <a href="https://raydium.io/swap" class="button" target="_blank"
+          >Buy on Raydium</a
+        >
+        <a href="https://dexscreener.com" class="button" target="_blank"
+          >Track on DexScreener</a
+        >
+      </div>
+    </section>
+
+    <!-- Milestones Section -->
+    <section id="milestones" class="section">
+      <h2>Our Journey</h2>
+      <ul class="milestones-list">
+        <li>🚀 <strong>Phase 1:</strong> Token Launch</li>
+        <li>💡 <strong>Phase 2:</strong> P2P Trading Platform</li>
+        <li>🎮 <strong>Phase 3:</strong> Gaming Platform Integration</li>
+        <li>🌟 <strong>Phase 4:</strong> Community Expansion</li>
+      </ul>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <p>Powered by $CRYPTO | Made with ❤️ for the blockchain community</p>
+      <div class="social-links">
+        <a href="https://t.me/crypto_platform" target="_blank"
+          ><img src="telegram.svg" alt="Telegram"
+        /></a>
+        <a href="https://x.com/billycoinsolana" target="_blank"
+          ><img src="x.svg" alt="logo" class="logo"
+        /></a>
+        <a href="https://coingecko.com" target="_blank"
+          ><img src="coingecko.svg" alt="CoinGecko"
+        /></a>
+      </div>
+    </footer>
+
+    <!-- Background Music -->
+    <audio id="myAudio" autoplay loop muted>
+      <source src="background-music.mp3" type="audio/mpeg" />
+    </audio>
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        const audioElem = document.getElementById("myAudio");
+        const muteBtn = document.getElementById("muteButton");
+
+        function updateMuteButtonText() {
+          muteBtn.textContent = audioElem.muted ? "Play Music" : "Pause Music";
+        }
+
+        muteBtn.addEventListener("click", function () {
+          if (audioElem.muted) {
+            audioElem.muted = false;
+            audioElem.play();
+          } else {
+            audioElem.muted = true;
+            audioElem.pause();
           }
-  
-          function fadeInVolume(targetVolume, duration) {
-            var volumeStep = targetVolume / (duration / 100);
-            var currentVolume = audioElem.volume;
-            var fadeInterval = setInterval(function () {
-              currentVolume += volumeStep;
-              if (currentVolume >= targetVolume) {
-                audioElem.volume = targetVolume;
-                clearInterval(fadeInterval);
-              } else {
-                audioElem.volume = currentVolume;
-              }
-            }, 100);
-          }
-  
-          function toggleMute() {
-            if (audioElem.muted) {
-              audioElem.muted = false;
-              audioElem
-                .play()
-                .then(() => {
-                  fadeInVolume(0.1, 5000);
-                })
-                .catch((e) => console.error("Playback failed:", e));
-            } else {
-              audioElem.muted = true;
-              audioElem.pause();
-              audioElem.volume = 0;
-            }
-            updateMuteButtonText();
-          }
-  
-          var muteBtn = document.getElementById("muteButton");
-          muteBtn.addEventListener("click", toggleMute);
-  
           updateMuteButtonText();
         });
-      </script>
 
-  <body>
-
-       <audio id="myAudio" autoplay loop>
-        <source src="billy.mp3" type="audio/mpeg" />
-      </audio>
-
-    <div class="hearthands" id="object1"></div>
-    <div class="doubleheart" id="object2"></div>
-    <div class="growingheart" id="object3"></div>
-    <div class="stars" id="object4"></div>
-    <div class="sparkleheart" id="object5"></div>
-    <div class="heartsmile" id="object6"></div>
-    <div class="paws" id="object7"></div>
-    <div class="pinch" id="object8"></div>
-    <div class="blueheart" id="object9"></div>
-    <div class="bone" id="object10"></div>
-
-    <div class="navigation-bar">
-      <a class="link"
-        href="https://raydium.io/swap/?inputMint=sol&amp;outputMint=3B5wuUrMEi5yATD7on46hKfej3pfmd7t1RKgrsN3pump"
-        >BUY</a
-      >
-      <a class="link" href="https://linktr.ee/billycto">LINKS</a>
-      <a class="link" href="../meme.billysol.lol/index.html">CREATE MEME</a>
-      <a class="link" href="https://affirmationgenerator.billysol.lol/">suckkk AI</a>
-      <a class="link" onclick="toggleMute()" id="muteButton">UNMUTE</a>
-    </div>
-    <div class="container">
-    <div class="content">
-      <img src="billy.jpg" class="portrait" />
-    </div>
-    <div class="content-text">
-      <p>
-        $BILLY is the cutest dog on Solana, on a mission to be worth billyons and billyons!
-      </p>
-    </div>
-
-    <a href="https://raydium.io/swap/?inputMint=sol&amp;outputMint=3B5wuUrMEi5yATD7on46hKfej3pfmd7t1RKgrsN3pump">
-      <div class="button"><span>BUY SOME $BILLY!</span></div>
-    </a>
-  
-
-    <div class="ca-text">
-      <p>
-        3B5wuUrMEi5yATD7on46hKfej3pfmd7t1RKgrsN3pump
-      </p>
-    </div>
-
-    <div class="container">
-      <div class="externals">
-        <a href="https://t.me/billy_cto_sol" target="_blank"
-          ><div class="square">
-            <img src="telegram.svg" alt="logo" class="logo" /></div
-        ></a>
-        <a href="https://x.com/billycoinsolana" target="_blank"
-          ><div class="square">
-            <img src="x.svg" alt="logo" class="logo" /></div
-        ></a>
-        <a
-          href="https://dexscreener.com/solana/3B5wuUrMEi5yATD7on46hKfej3pfmd7t1RKgrsN3pump"
-          target="_blank"
-          ><div class="square">
-            <img src="dexscreener.svg" alt="logo" class="logo" /></div
-        ></a>
-        <a
-        href="https://www.dextools.io/app/en/solana/pair-explorer/9uWW4C36HiCTGr6pZW9VFhr9vdXktZ8NA8jVnzQU35pJ"
-        target="_blank"
-        ><div class="square">
-          <img src="dextools.svg" alt="logo" class="logo" /></div
-      ></a>
-      </div>
-      <div class="externals">
-        <a href="https://birdeye.so/token/3B5wuUrMEi5yATD7on46hKfej3pfmd7t1RKgrsN3pump?chain=solana" target="_blank"
-        ><div class="square">
-          <img src="birdeye.svg" alt="logo" class="logo" /></div
-      ></a>
-        <a href="https://www.coingecko.com/en/coins/billy" target="_blank"
-          ><div class="square">
-            <img src="coingecko.svg" alt="logo" class="logo" /></div
-        ></a>
-        <a href="https://coinmarketcap.com/currencies/billy/" target="_blank"
-        ><div class="square">
-          <img src="coinmarketcap.svg" alt="logo" class="logo" /></div
-      ></a>
-      <a href="https://moonshot.money/" target="_blank"
-        ><div class="square">
-          <img src="moonshot.svg" alt="logo" class="logo" /></div
-      ></a>
-      </div>
-  </div>
-
-  <div class="content-text">
-    <p>
-Make your own $BILLY meme!
-    </p>
-  </div>
-  
-    <div class="horizontal-container">
-      <a href="../meme.billysol.lol/index.html"><img src="meme3.jpg" id="slideshow" class="meme" /></a>
-  </div>
-
-  <script>
-    const images = [
-      "meme3.jpg",
-      "meme2.png",
-      "meme1.png",
-      "meme4.jpg",
-      "meme5.png",
-      "meme8.png",
-      "meme9.png",
-      ];
-
-    let currentImageIndex = 0;
-    const slideshowElement = document.getElementById("slideshow");
-
-    function changeImage() {
-      slideshowElement.classList.add("fade-out");
-
-      setTimeout(() => {
-        currentImageIndex = (currentImageIndex + 1) % images.length;
-        slideshowElement.src = images[currentImageIndex];
-        slideshowElement.classList.remove("fade-out");
-        slideshowElement.classList.add("fade-in");
-      }, 1000);
-    }
-
-    setInterval(changeImage, 3000);
-
-    slideshowElement.classList.add("fade-in");
-  </script>
-    <div style="margin-bottom: 100px;"><a href="../meme.billysol.lol/index.html" class="button"><span>CREATE MEME</span></a></div>
+        updateMuteButtonText();
+      });
+    </script>
   </body>
-
-<!-- Mirrored from billysol.lol/ by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 04 Dec 2024 02:24:09 GMT -->
 </html>
